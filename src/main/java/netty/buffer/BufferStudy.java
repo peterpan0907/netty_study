@@ -23,8 +23,10 @@ public class BufferStudy {
         for (int i = 0; i < intBuffer.capacity(); i++) {
             intBuffer.put(i * 2);
         }
+        // 读写切换
         intBuffer.flip();
 
+        // 判断是否还有数据，若有，则读取
         while(intBuffer.hasRemaining()){
             System.out.println(intBuffer.get());
         }

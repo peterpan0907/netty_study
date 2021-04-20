@@ -6,6 +6,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.util.Scanner;
 
+/**
+ * 简单的nio的demo实现。客户端代码
+ */
 public class DemoClient {
 
     public static void main(String[] args) {

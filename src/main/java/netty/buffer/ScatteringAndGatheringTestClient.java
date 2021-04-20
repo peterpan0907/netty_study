@@ -7,6 +7,9 @@ import java.nio.channels.SocketChannel;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * buffer的聚合与分散客户端的实现
+ */
 public class ScatteringAndGatheringTestClient {
 
     public static void main(String[] args) throws Exception {

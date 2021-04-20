@@ -6,6 +6,9 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * 客户端的代码实现
+ */
 public class BioClient {
 
     public static void main(String[] args) {

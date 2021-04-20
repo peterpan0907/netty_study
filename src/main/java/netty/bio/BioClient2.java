@@ -6,6 +6,9 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * 客户端的代码实现，跟BioClient代码一样，只是为了模拟两个客户端连接服务器
+ */
 public class BioClient2 {
 
     public static void main(String[] args) {

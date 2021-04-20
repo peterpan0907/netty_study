@@ -6,6 +6,9 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Arrays;
 
+/**
+ * buffer的聚合与分散服务器端的实现
+ */
 public class ScatteringAndGatheringServer {
 
     public static void main(String[] args) throws Exception {

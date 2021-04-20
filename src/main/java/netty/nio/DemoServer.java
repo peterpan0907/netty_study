@@ -6,6 +6,9 @@ import java.nio.channels.*;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * 简单的nio的demo实现。服务器端代码
+ */
 public class DemoServer {
 
     public static void main(String[] args) {
@@ -32,7 +35,7 @@ public class DemoServer {
             while (true) {
                 // 没有客户端进行连接
                 if (selector.select(1000) == 0) {
-//                    System.out.println("还未进行连接");
+                    System.out.println("还未进行连接");
                     continue;
                 }
                 // 找到连接的所有客户端

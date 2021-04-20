@@ -14,12 +14,11 @@ public class FileChannelTest {
 
     public static void main(String[] args) {
         // 写入数据入文件
-//        writeData();
+        writeData();
         // 从文件读取数据
-//        readData();
+        readData();
         // 使用一个buffer读取数据
-//        writeAndReadData();
-
+        writeAndReadData();
         // 文件拷贝
         copyFile();
     }
@@ -41,7 +40,6 @@ public class FileChannelTest {
             // 文件拷贝,transferFrom
 //            writeChannel.transferFrom(readChannel, 0, readChannel.size());
 
-
             // 文件拷贝,transferTo
             readChannel.transferTo(0, readChannel.size(), writeChannel);
 
@@ -60,13 +58,6 @@ public class FileChannelTest {
      */
     public static void writeAndReadData() {
         try {
-//            String con = "ni hao ya xiong die";
-//            File file = new File(fileName);
-//            File toFile = new File(fileNameCopy);
-//            if (!file.exists() || !toFile.exists()) {
-//                System.out.println("文件不存在");
-//                return;
-//            }
             FileInputStream in = new FileInputStream(fileName);
 
             FileOutputStream out = new FileOutputStream(fileNameCopy);
