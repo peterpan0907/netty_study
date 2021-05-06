@@ -19,7 +19,7 @@ public class DemoServer {
 
             //绑定端口
 //            serverSocketChannel.socket().bind(new InetSocketAddress(6666));
-            serverSocketChannel.bind(new InetSocketAddress(6666));
+            serverSocketChannel.bind(new InetSocketAddress(6668));
 
             //设置为非阻塞
             serverSocketChannel.configureBlocking(false);
